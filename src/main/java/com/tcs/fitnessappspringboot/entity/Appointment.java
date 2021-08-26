@@ -1,4 +1,4 @@
-package com.tcs.fitnessappspringboot;
+package com.tcs.fitnessappspringboot.entity;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -61,10 +61,10 @@ public class Appointment {
 	public void setTrainer_preference(String trainer_preference) {
 		Trainer_preference = trainer_preference;
 	}
-	public boolean isPhysio_required() {
+	public String getPhysio_required() {
 		return Physio_required;
 	}
-	public void setPhysio_required(boolean physio_required) {
+	public void setPhysio_required(String physio_required) {
 		Physio_required = physio_required;
 	}
 	public String getPackage() {

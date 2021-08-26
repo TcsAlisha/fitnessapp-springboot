@@ -1,7 +1,10 @@
-package com.tcs.fitnessappspringboot;
+package com.tcs.fitnessappspringboot.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import com.tcs.fitnessappspringboot.entity.Appointment;
+import com.tcs.fitnessappspringboot.repository.IAppointmentRepository;
 
 @Service
 public class AppointmentService implements IAppointmentService{
